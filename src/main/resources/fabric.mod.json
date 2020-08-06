@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "f3serverinfo",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "F3 Server Info",
+  "description": "Simple mod reimplementing Vanilla 1.13 server brand, packet rx and tx rate and internal server tick time info in F3",
   "authors": [
-    "Me!"
+    "creeper123123321"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,22 +14,14 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/f3serverinfo/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
+  "environment": "client",
   "mixins": [
-    "modid.mixins.json"
+    "f3serverinfo.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4"
-  },
-  "suggests": {
-    "flamingo": "*"
   }
 }
