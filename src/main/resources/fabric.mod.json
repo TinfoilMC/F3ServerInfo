@@ -3,14 +3,14 @@
   "id": "f3serverinfo",
   "version": "${version}",
 
-  "name": "F3 Server Info",
+  "name": "F3ServerInfo",
   "description": "Simple mod reimplementing Vanilla 1.13 server brand, packet rx and tx rate and internal server tick time info in F3",
   "authors": [
     "creeper123123321"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/f3serverinfo",
+    "sources": "https://github.com/creeper123123321/F3ServerInfo"
   },
 
   "license": "CC0-1.0",
