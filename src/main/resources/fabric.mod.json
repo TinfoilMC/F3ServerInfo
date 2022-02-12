@@ -13,7 +13,7 @@
     "sources": "https://github.com/creeper123123321/F3ServerInfo"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/f3serverinfo/icon.png",
 
   "environment": "client",

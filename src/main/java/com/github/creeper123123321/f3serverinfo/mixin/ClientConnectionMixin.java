@@ -19,7 +19,7 @@ public class ClientConnectionMixin implements PacketRateMeasurer {
     @Unique
     private float f3serverinfo_avgTx, f3serverinfo_avgRx;
 
-    @Inject(method = "method_5100", at = @At("HEAD"))
+    @Inject(method = "method_7401", at = @At("HEAD"))
     private void onSend(Packet packet, GenericFutureListener<? extends Future<? super Void>>[] genericFutureListeners, CallbackInfo ci) {
         f3serverinfo_amountTx++;
     }
